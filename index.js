@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import PropTypes from 'prop-types';
 import {
   StyleSheet,
   View,
@@ -242,18 +241,5 @@ const floatRange = (props, propName, componentName) => {
       `Invalid prop ${propName} supplied to ${componentName}. ${propName} must be between 0.1 and 1.0`
     )
   }
-};
-
-SwipeAbleDrawer.propTypes = {
-  scalingFactor: floatRange,
-  minimizeFactor: floatRange,
-  swipeOffset: PropTypes.number,
-  position: PropTypes.oneOf(['right', 'left']),
-  contentWrapperStyle: PropTypes.object,
-  frontStyle: PropTypes.object,
-  content: PropTypes.element
-};
-SwipeAbleDrawer.defaultProps = {
-  position:'left'
 };
 export default SwipeAbleDrawer;

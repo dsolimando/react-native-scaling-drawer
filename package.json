@@ -1,6 +1,6 @@
 {
-  "name": "react-native-scaling-drawer",
-  "version": "1.0.1",
+  "name": "@solidx/react-native-scaling-drawer",
+  "version": "1.1.0",
   "description": "react-native-scaling-drawer",
   "main": "index.js",
   "scripts": {
@@ -23,7 +23,6 @@
   },
   "homepage": "https://github.com/melihberberolu/react-native-scaling-drawer#readme",
   "dependencies": {
-    "prop-types": "^15.6.0",
     "react-navigation": "^1.0.0-beta.27"
   }
 }
