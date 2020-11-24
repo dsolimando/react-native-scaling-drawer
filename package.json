@@ -1,14 +1,15 @@
 {
-  "name": "@proximus/react-native-scaling-drawer",
-  "version": "1.1.0",
+  "name": "@dsolimando/react-native-scaling-drawer",
+  "version": "2.0.0",
   "description": "react-native-scaling-drawer",
-  "main": "index.tsx",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "build": "tsc"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/melihberberolu/react-native-scaling-drawer.git"
+    "url": "git+https://github.com/dsolimando/react-native-scaling-drawer.git"
   },
   "keywords": [
     "React",
@@ -16,15 +17,12 @@
     "Scaling-Drawer",
     "Drawer"
   ],
-  "author": "Melih Berberoğlu <melihberberoglu@gmail.com>",
+  "author": "Melih Berberoğlu <melihberberoglu@gmail.com>, Damien Solimando <dsolimando@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/melihberberolu/react-native-scaling-drawer/issues"
+    "url": "https://github.com/dsolimando/react-native-scaling-drawer/issues"
   },
-  "homepage": "https://github.com/melihberberolu/react-native-scaling-drawer#readme",
-  "dependencies": {
-    "react-navigation": "^1.0.0-beta.27"
-  },
+  "homepage": "https://github.com/dsolimando/react-native-scaling-drawer#readme",
   "devDependencies": {
     "@types/react-native": "^0.63.37",
     "@types/react": "^16.9.56",

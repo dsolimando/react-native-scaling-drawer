@@ -1,7 +1,8 @@
 {
   "compilerOptions": {
     "module": "ESNext",
-
+    "declaration": true,
+    "declarationDir": "lib",
     "target": "ES6",
     "sourceMap": true,
     "allowSyntheticDefaultImports": true,
