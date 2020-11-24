@@ -13,16 +13,16 @@ import {
 const { width, height } = Dimensions.get('window');
 
 interface IProps {
-  scalingFactor: number;
-  minimizeFactor: number;
-  swipeOffset: number;
-  contentWrapperStyle: ViewStyle;
-  frontStyle: ViewStyle;
-  containerStyle: ViewStyle;
+  scalingFactor?: number;
+  minimizeFactor?: number;
+  swipeOffset?: number;
+  contentWrapperStyle?: ViewStyle;
+  frontStyle?: ViewStyle;
+  containerStyle?: ViewStyle;
   content: ReactElement;
-  onClose: () => void;
-  onOpen: () => void;
-  duration: number;
+  onClose?: () => void;
+  onOpen?: () => void;
+  duration?: number;
 }
 
 interface IState {
@@ -34,6 +34,7 @@ export default class SwipeAbleDrawer extends Component<IProps, IState> {
     scalingFactor: 0.5,
     minimizeFactor: 0.5,
     swipeOffset: 10,
+    duration: 250,
   };
 
   private isBlockDrawer: boolean;
